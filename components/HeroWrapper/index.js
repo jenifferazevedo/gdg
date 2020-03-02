@@ -100,7 +100,7 @@ export default function index() {
             mulheres na área de tecnologia.
           </p>
           <ActionsWrapper>
-            <a href="#">Confirar Presença</a>
+            <a href="#">Confirmar Presença</a>
             <a href="#">Call for papers</a>
           </ActionsWrapper>
         </CaptionSafeArea>
