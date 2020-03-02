@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "export": "NODE_ENV=production next build && next export"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
