@@ -7,7 +7,8 @@ const HeroWrapperContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 950px) {
+  @media (max-width: 700px) {
+    flex-direction: column;
   }
 `;
 
@@ -53,7 +54,8 @@ const MainImageHolder = styled.div`
   justify-content: center;
   flex-direction: column;
   background: url("/img/main-image.jpg") no-repeat center center / cover;
-  @media (max-width: 950px) {
+  @media (max-width: 700px) {
+    display: none;
   }
 `;
 

@@ -10,6 +10,9 @@ const EventDescriptionContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   background: #00bfa5;
+  @media (max-width: 700px) {
+    padding: 10% 8%;
+  }
 `;
 
 const EventTitle = styled.div`

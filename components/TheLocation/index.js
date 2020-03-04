@@ -11,6 +11,9 @@ const EventDescriptionContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  @media (max-width: 700px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 const EventTitle = styled.div`
@@ -33,6 +36,9 @@ const EventTitle = styled.div`
     font-weight: 300;
     margin: 0;
   }
+  @media (max-width: 700px) {
+    margin-bottom: 20px;
+  }
 `;
 
 const MapHolder = styled.div`
@@ -47,7 +53,10 @@ const MapHolder = styled.div`
     width: 100%;
     height: 550px;
   }
-  @media (max-width: 950px) {
+  @media (max-width: 700px) {
+    flex: 1;
+    margin: 0;
+    width: 100%;
   }
 `;
 
