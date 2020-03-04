@@ -10,6 +10,13 @@ const MainFooterHolder = styled.div`
   img {
     width: 350px;
   }
+  @media (max-width: 700px) {
+    padding: 10% 0;
+    margin: 0 8%;
+    img{
+      width: 80vw;
+    }
+  }
 `;
 
 const CopyrightHolder = styled.div`
@@ -17,6 +24,9 @@ const CopyrightHolder = styled.div`
   max-width: 800px;
   text-align: center;
   color: #454545;
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
 `;
 
 export default function index() {

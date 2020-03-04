@@ -11,6 +11,9 @@ const EventDescriptionContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 const EventTitle = styled.div`
@@ -37,6 +40,10 @@ const EventTitle = styled.div`
 
 const DescriptionBox = styled.div`
   max-width: 60%;
+  @media (max-width: 700px) {
+    max-width: 100%;
+    text-align: justify;
+  }
 `;
 
 const CircleHolder = styled.div`
